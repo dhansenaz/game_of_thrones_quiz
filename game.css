@@ -1,48 +1,80 @@
-.choice-container {
-    display: flex;
-    margin-bottom:0.5rem;
-    width:100%;
-    font-size: 1.8rem;
-    border:0.1rem solid rgb(86, 165, 235, 0.25);
-    background-color: white;
+body {
+    background:url('gotdragon1.jpg') no-repeat center center fixed;
+    background-size: cover;
 }
 
-.choice-container:hover {
+.choice-container {
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.8rem;
+    border: 0.1rem solid rgb(86, 165, 235, 0.25);
+    background-color: white;
+    opacity: .6;
+  }
+  
+  .choice-container:hover {
     cursor: pointer;
     box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
     transform: translateY(-0.1rem);
     transition: transform 150ms;
-}
-
-.choice-prefix {
-    padding:1.5rem 2.5rem;
-    background-color: #56a5eb;
-    color:white;
-}
-.choice-text {
-    padding:1.5rem;
-    width:100%;
-}
-.correct {
+  }
+  
+  .choice-prefix {
+    padding: 1.5rem 2.5rem;
+    background-color: #3f3f3f;
+    color: white;
+  }
+  
+  .choice-text {
+    padding: 1.5rem;
+    width: 100%;
+    opacity: .7;
+    text-transform: uppercase;
+  }
+  
+  .correct {
     background-color: #28a745;
-}
-.incorrect {
-    background-color: red;
-
-}
-/* HUD */
-
-#hud {
+  }
+  
+  .incorrect {
+    background-color: #dc3545;
+  }
+  
+  /* HUD */
+  
+  #hud {
     display: flex;
     justify-content: space-between;
-
-
-}
-.hud-prefix {
+  }
+  
+  .hud-prefix {
     text-align: center;
     font-size: 2rem;
-}
-.hud-main-text {
+    color:rgb(223, 223, 223);
+  }
+  
+  .hud-main-text {
     text-align: center;
-
-}
+  }
+  
+  #progressBar {
+    width: 20rem;
+    height: 4rem;
+    border: 0.3rem solid #0657BD;
+    margin-top: 1.5rem;
+  }
+  
+  #progressBarFull {
+    height: 3.4rem;
+    background-color: #0657BD;
+    width: 0%;
+  }
+  #question {
+      color:rgb(233, 233, 233);
+      text-align: center;
+      text-transform: uppercase
+  }
+  #score {
+      color:#0657BD;
+  }
