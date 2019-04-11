@@ -1,11 +1,12 @@
 body {
-    background:url('gotwinter.jpg');
+    background:url('gotdragon1.jpg');
     background-size: cover;
 }
-#finalScore {
-    font-size: 20rem;
-    color:#0657BD;
-}
-.yourscore {
-    color:#0657BD;
-}
+
+@media only screen and (max-width: 768px) {
+    body {
+      background: url('gotdragon1.jpg') no-repeat center center fixed;
+      background-position: center;
+      background-size: cover;
+    }
+  }

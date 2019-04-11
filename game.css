@@ -1,5 +1,5 @@
 body {
-    background:url('gotdragon1.jpg') no-repeat center center fixed;
+    background:url('gotwall.png') no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -73,7 +73,8 @@ body {
   #question {
       color:rgb(233, 233, 233);
       text-align: center;
-      text-transform: uppercase
+      text-transform: uppercase;
+      font-size:3rem;
   }
   #score {
       color:#0657BD;
